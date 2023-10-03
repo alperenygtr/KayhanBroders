@@ -1,0 +1,43 @@
+/* Importing Utilities */
+
+@import url("/style/utils.css");
+
+:root {
+    --primary-color: #ca0715;
+}
+
+.about__grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.about__column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.about__left,
+.about__right {
+    flex: 50%;
+}
+
+.about__left {
+    display: flex;
+    justify-content: center;
+}
+
+.about__right > h2 {
+    color: #000;
+    font-family: 'Arimo', sans-serif;
+    font-size: 24pt;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.about__right > p {
+    line-height: 22.5px;
+}
